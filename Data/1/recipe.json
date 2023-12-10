@@ -1,27 +1,28 @@
 {
-    "title":"Prawns Pav",
-    "servings":"2-3",
-    "description": "Delicious, spicy and tangy prawns pav", 
+    "id": 1,
+    "title": "Prawns Pav",
+    "servings": "2-3",
+    "description": "Delicious, spicy and tangy prawns pav",
     "titleImageId": 4,
-    "images" : [
+    "images": [
         {
             "id": 1,
-            "path": "./Images/Image1.jpg",
+            "path": "Images/Image1.jpg",
             "altText": "Prawns Pav"
         },
         {
             "id": 2,
-            "path": "./Images/Image2.jpg",
+            "path": "Images/Image2.jpg",
             "altText": "Prawns Pav"
         },
         {
             "id": 3,
-            "path": "./Images/Image3.jpg",
+            "path": "Images/Image3.jpg",
             "altText": "Prawns Pav"
         },
         {
             "id": 4,
-            "path": "./Images/Image4.jpg",
+            "path": "Images/Image4.jpg",
             "altText": "Prawns Pav"
         }
     ],
@@ -69,21 +70,27 @@
     ],
     "steps": [
         {
+            "order": 1,
             "step": "Crush the garlic and green chillies"
         },
         {
+            "order": 2,
             "step": "Marinate prawns with salt , food color and the crushed garlic,green chilli mixture for 30 mins {ImageId:1}"
         },
         {
+            "order": 3,
             "step": "Heat oil in a pan and add a small batch of prawns at a time and fry them till they turn golden brown {ImageId:2}"
         },
         {
+            "order":4,
             "step": "Alternatively you can also coat the prawns with rice flour and fry them {ImageId:3}"
         },
         {
+            "order": 5,
             "step": "Cut the onions for salad"
         },
         {
+            "order": 6,
             "step": "Serve with pav, green chutney and salad {ImageId:4}"
         }
     ]
