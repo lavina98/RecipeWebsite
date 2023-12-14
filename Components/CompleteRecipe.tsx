@@ -47,7 +47,7 @@ export default function CompleteRecipe({ id }: ICompleteRecipeProps) {
         <div>
             <div className={styles.introDiv}>
             <div className={styles.titleDiv}>{recipe?.title}</div>
-            {titleImage && <Image src={titleImage.url} alt={titleImage.altText} width={300} height={300} />}
+            {titleImage && <Image src={`/Images/${recipe.id}/${titleImage.path}`} alt={titleImage.altText} width={300} height={300} />}
             <div>{recipe?.description}</div>
             </div>
             {stepsJSX}
