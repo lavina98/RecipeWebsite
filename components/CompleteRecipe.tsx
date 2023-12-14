@@ -1,4 +1,4 @@
-import { Recipe } from "@/Model/Recipe";
+import { Recipe } from "../Model/Recipe";
 import { useEffect, useState } from "react"
 import Image from "next/image"
 import styles from './Styles/CompleteRecipe.module.css'

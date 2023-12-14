@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import path from "path";
 import fs from "fs";
-import { Recipe } from "@/Model/Recipe";
+import { Recipe } from "../../../Model/Recipe";
 
 export default function handler(req : NextApiRequest, res: NextApiResponse) {
     const { id } = req.query;

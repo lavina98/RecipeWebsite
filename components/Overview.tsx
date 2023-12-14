@@ -1,4 +1,4 @@
-import { Recipe } from "@/Model/Recipe";
+import { Recipe } from "../Model/Recipe";
 import { useEffect, useState } from "react";
 import Card from "./Card";
 import styles from './Styles/Overview.module.css'
