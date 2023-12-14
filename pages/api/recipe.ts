@@ -14,7 +14,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
         const recipePath = path.join(directoryPath, recipeFile);
         const recipeContent = fs.readFileSync(recipePath, 'utf-8');
         const recipe: Recipe = JSON.parse(recipeContent);
-        const titleImage = recipe.images.find((image) => image.id === parseInt(recipe.titleImageId));
+        const titleImage = recipe.images.find((image) => image.id === recipe.titleImageId);
         if (titleImage) {
            titleImage.url = `${process.env.VERCEL_URL}/Images/${recipe.id}/${titleImage.path}`;
            recipe.images = [titleImage];
