@@ -26,6 +26,7 @@ export default function Overview() {
                         imageUrl={recipe.images[0].url}
                         imageAltText={recipe.images[0].altText}
                         href={`/recipe/${recipe.id}`}
+                        imagePath={`/Images/${recipe.id}/${recipe.images[0].path}`}
                     />
                 ))}
         </div>

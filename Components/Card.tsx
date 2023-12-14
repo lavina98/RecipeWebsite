@@ -8,12 +8,13 @@ export interface CardProps {
     imageUrl: string
     imageAltText : string
     href: string
+    imagePath: string
 }
 
-export default function Card({ title, description, imageUrl, imageAltText, href }: CardProps) {
+export default function Card({ title, description, imageUrl, imageAltText, href , imagePath}: CardProps) {
  return (
     <div className={styles.cardDiv}>
-        <Image src={imageUrl} alt={imageAltText} width={300} height={300} />
+        <Image src={imagePath} alt={imageAltText} width={300} height={300} />
         <Link href={href}> {title} </Link>
         <span> {description}</span>
     </div>

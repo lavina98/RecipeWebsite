@@ -31,7 +31,7 @@ export default function CompleteRecipe({ id }: ICompleteRecipeProps) {
                 <div key={currentStep.order} className={styles.stepData}>
                     {currentStep.order}.{onlyStepText}
                     <div className={styles.stepImageDiv}>
-                        <Image key={`image-${currentStep.order}`}  className={styles.stepImage} src={image?.url} alt={image?.altText} width={300} height={300} />
+                        <Image key={`image-${currentStep.order}`}  className={styles.stepImage} src={`/Images/${recipe.id}/${image.path}`} alt={image?.altText} width={300} height={300} />
                     </div>
                 </div>
             )
