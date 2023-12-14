@@ -7,22 +7,22 @@
     "images": [
         {
             "id": 1,
-            "path": "Images/Image1.jpg",
+            "path": "Image1.jpg",
             "altText": "Prawns Pav"
         },
         {
             "id": 2,
-            "path": "Images/Image2.jpg",
+            "path": "Image2.jpg",
             "altText": "Prawns Pav"
         },
         {
             "id": 3,
-            "path": "Images/Image3.jpg",
+            "path": "Image3.jpg",
             "altText": "Prawns Pav"
         },
         {
             "id": 4,
-            "path": "Images/Image4.jpg",
+            "path": "Image4.jpg",
             "altText": "Prawns Pav"
         }
     ],

@@ -1,0 +1,96 @@
+{
+    "id": 2,
+    "title": "Moong dal tadka",
+    "servings": "2-3",
+    "description": "Warm and comforting dal",
+    "titleImageId": 3,
+    "images": [
+        {
+            "id": 1,
+            "path": "Image1.jpg",
+            "altText": "Initial preparation"
+        },
+        {
+            "id": 2,
+            "path": "Image2.jpg",
+            "altText": ""
+        },
+        {
+            "id": 3,
+            "path": "Image3.jpg",
+            "altText": ""
+        }
+    ],
+    "ingredients": [
+        {
+            "name": "Moon dal",
+            "quantity": "1 bowl"
+        },
+        {
+            "name": "Garlic",
+            "quantity": "5-6 cloves"
+        },
+        {
+            "name": "Green chillies",
+            "quantity": "1-2"
+        },
+        {
+            "name": "Jeera",
+            "quantity": "1 tsp"
+        },
+        {
+            "name": "Curry leaves",
+            "quantity": "10-15 leaves"
+        },
+        {
+            "name": "Dried red chillies",
+            "quantity": "2-3"
+        },
+        {
+            "name":"Common indian spices",
+            "quantity":"As per taste"
+        },
+        {
+            "name": "Ghee",
+            "quantity": "2 tbsp"
+        },
+        {
+            "name" :"Onion",
+            "quantity":"1 big"
+        },
+        {
+            "name": "Tomato",
+            "quantity": "1 medium"
+        }
+    ],
+    "steps": [
+        {
+            "order": 1,
+            "step": "Boil the dal with twice the amount of water in a pressure cooker with salt and turmeric powder. Keep aside."
+        },
+        {
+            "order": 2,
+            "step": "Heat ghee in a pan. Add jeera, curry leaves, dried red chillies and garlic. Saute till garlic turns golden brown.{ImageId:1}"
+        }, 
+        {
+            "order": 3,
+            "step": "Add chopped onions and green chillies. Saute till onions turn golden brown."
+        },
+        {
+            "order": 4,
+            "step": "Add chopped tomatoes and cook till tomatoes turn mushy."
+        },
+        {
+            "order": 5,
+            "step": "Add common indian spices and cook for 2-3 minutes.{ImageId:2}"
+        },
+        {
+            "order": 6,
+            "step": "Add boiled dal and mix well. Add water if required."
+        },
+        {
+            "order": 7,
+            "step": "Bring to boil and serve hot.{ImageId:3}"
+        }
+    ]
+}

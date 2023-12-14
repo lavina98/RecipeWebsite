@@ -1,18 +1,19 @@
 import Link from "next/link"
 import Image from "next/image"
+import styles from './Styles/Card.module.css'
 
 export interface CardProps {
     title: string
     description: string
-    image: string
+    imageUrl: string
+    imageAltText : string
     href: string
-    
 }
 
-export default function Card({ title, description, image, href }: CardProps) {
+export default function Card({ title, description, imageUrl, imageAltText, href }: CardProps) {
  return (
-    <div>
-        <Image src={image} alt={title} width={300} height={300} />
+    <div className={styles.cardDiv}>
+        <Image src={imageUrl} alt={imageAltText} width={300} height={300} />
         <Link href={href}> {title} </Link>
         <span> {description}</span>
     </div>

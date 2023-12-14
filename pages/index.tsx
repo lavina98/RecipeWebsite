@@ -1,18 +1,22 @@
 import type { ReactElement } from 'react'
 
 import type { NextPageWithLayout } from './_app'
-import Card from '@/components/Card'
- 
+import Image from 'next/image'
+import Overview from '@/Components/Overview'
+import styles from '@/Components/Styles/Index.module.css'
+
 const Page: NextPageWithLayout = () => {
   return <p>hello world</p>
 }
- 
+
 Page.getLayout = function getLayout(page: ReactElement) {
   return (
-   <div>{page}
-        <Card title="hello" description="world" href="/recipe/1" />
-        <Card title="hello2" description="world2" href="/recipe/2" />
-   </div>)
+    <div className={styles.indexDiv} >
+      <div className={styles.bannerDiv}>
+        <Image className={styles.bannerImage} priority={true} src="banner5.svg" alt="banner" width={1000} height={300} />
+      </div>
+      <Overview />
+    </div>)
 }
- 
+
 export default Page

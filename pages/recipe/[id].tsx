@@ -1,4 +1,4 @@
-import CompleteRecipe from '@/components/CompleteRecipe'
+import CompleteRecipe from '@/Components/CompleteRecipe'
 import {useRouter} from 'next/router'
 
 export default function Page() {

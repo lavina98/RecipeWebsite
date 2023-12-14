@@ -1,0 +1,106 @@
+{
+    "id": 4,
+    "title": "Dahi Shola chat",
+    "servings": "2-3",
+    "description": "Spicy and tangy chat made with dahi and chickpeas.",
+    "titleImageId": 5,
+    "images": [
+        {
+            "id": 1,
+            "path": "Image1.jpg",
+            "altText": "Initial preparation"
+        },
+        {
+            "id": 2,
+            "path": "Image2.jpg",
+            "altText": ""
+        },
+        {
+            "id": 3,
+            "path": "Image3.jpg",
+            "altText": ""
+        },
+        {
+            "id": 4,
+            "path": "Image4.jpg",
+            "altText": ""
+        },
+        {
+            "id": 5,
+            "path": "Image5.jpg",
+            "altText": ""
+        }
+    ],
+    "ingredients": [
+        {
+            "name": "Chickpeas",
+            "quantity": "1 bowl"
+        },
+        {
+            "name": "Green chutney",
+            "quantity": "1 small bowl"
+        },
+        {
+            "name": "Tamarind chutney",
+            "quantity": "1 tsp"
+        },
+        {
+            "name": "Curd",
+            "quantity": "2 big bowls"
+        },
+        {
+            "name": "Potato",
+            "quantity": "2 small"
+        },
+        {
+            "name": "Onion",
+            "quantity": "1 small"
+        },
+        {
+            "name": "Green chilies",
+            "quantity": "1 medium"
+        },
+        {
+            "name":"Indian spices",
+            "quantity":"As per taste"
+        },
+        {
+            "name": "Oil",
+            "quantity": "2 tbsp"
+        },
+        {
+            "name": "Sugar",
+            "quantity": "2 tbsp"
+        }
+    ],
+    "steps": [
+        {
+            "order": 1,
+            "step": "Soak the chick peas overnight and boil them in a pressure cooker. Also boil the potatoes and peel them."
+        },
+        {
+            "order": 2,
+            "step": "Grind the chick peas and add the boiled potatoes. Add salt, red chilli powder, cumin powder and mix well {ImageId:1}"
+        }, 
+        {
+            "order": 3,
+            "step": "Make small pattice and shallow fry them in a pan till golden brown.{ImageId:2}"
+        },
+        {
+            "order": 4,
+            "step": "Mix cold curd with sugar till the sugar dissolves.{ImageId:3}"
+        },
+        {
+            "order": 5,
+            "step": "Add 3 pattices in a plate. Add chopped onions and and green chillies{ImageId:4}"
+        },
+        {
+            "order": 6,
+            "step": "Over it add curd, green chutney and tamarind chutney."
+        },
+        {
+            "order": 7,
+            "step": "Garnish with red chilli powder, cumin powder ,coriander leaves and serve.{ImageId:5}"
+        }
+    ]
+}

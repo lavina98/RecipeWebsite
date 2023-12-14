@@ -1,0 +1,77 @@
+{
+    "id": 3,
+    "title": "Green chutney",
+    "servings": "2-3",
+    "description": "Spicy, refreshing and delicious green chutney.",
+    "titleImageId": 4,
+    "images": [
+        {
+            "id": 1,
+            "path": "Image1.jpg",
+            "altText": "Prawns Pav"
+        },
+        {
+            "id": 2,
+            "path": "Image2.jpg",
+            "altText": "Prawns Pav"
+        },
+        {
+            "id": 3,
+            "path": "Image3.jpg",
+            "altText": "Prawns Pav"
+        },
+        {
+            "id": 4,
+            "path": "Image4.jpg",
+            "altText": "Prawns Pav"
+        }
+    ],
+    "ingredients": [
+        {
+            "name": "Coriander leaves",
+            "quantity": "1 big bunch"
+        },
+        {
+            "name": "Mint leaves",
+            "quantity": "Leaves from 5-10 stems"
+        },
+        {
+            "name": "Onion",
+            "quantity": "1 medium"
+        },
+        {
+            "name": "Green chillies",
+            "quantity": "1"
+        },
+        {
+            "name": "Garlic",
+            "quantity": "4-5 cloves"
+        },
+        {
+            "name": "Lemon juice",
+            "quantity": "1/2 lemon"
+        },
+        {
+            "name": "Salt",
+            "quantity": "To taste"
+        }
+    ],
+    "steps": [
+        {
+            "order": 1,
+            "step": "Clean the coriander and mint leaves{ImageId:1}"
+        },
+        {
+            "order": 2,
+            "step": "Grind the corianer, mint leaves, onion, green chillies, garlic, lemon juice and salt to a smooth paste {ImageId:3}"
+        },
+        {
+            "order": 3,
+            "step": "Adjust the salt and lemon juice as per taste"
+        },
+        {
+            "order":4,
+            "step": "Store the chutney in an airtight container in the refrigerator {ImageId:4} and enjoy with your favourite snacks"
+        } 
+    ]
+}
